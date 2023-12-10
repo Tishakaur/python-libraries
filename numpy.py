@@ -97,7 +97,7 @@ print(arr1 + arr2)
 # multiplication of the given matrix
 arr1 = [45,89,90,3]
 arr2 = [78,8,34,12]
-print(arr1 * arr2)
+print(np.dot(arr1,arr2)
 
 # display the square root of an individual element in matrix
 print(np.sqrt(ar))
