@@ -77,7 +77,7 @@ print(rollno.argmax())
 print(rollno.argmin())
 
 # display array in ascending order
-print(one.argsort())
+print(rollno.argsort())
 
 # display the  position  of highest  & lowest elements in columns
 print(ar.argmax(axis=0))
@@ -90,9 +90,13 @@ print(ar.argmn(axis=1))
 print(ar.argsort())
 
 # addition the given matrix
+arr1 = [23,56,78,56]
+arr2 = [78,3,67,9]
 print(arr1 + arr2)
 
 # multiplication of the given matrix
+arr1 = [45,89,90,3]
+arr2 = [78,8,34,12]
 print(arr1 * arr2)
 
 # display the square root of an individual element in matrix
