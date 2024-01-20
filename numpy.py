@@ -1,4 +1,3 @@
-
 import numpy as np
 
 Ar = np.array([12,34,4])                            # Display given array
