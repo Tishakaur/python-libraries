@@ -1,44 +1,33 @@
 
 import numpy as np
 
-
 Ar = np.array([12,34,4])                            # Display given array
 print(Ar)
 
-
 print(Ar.dtype)                                    # Datatype of an array
 
-
 print(Ar.size)                                    # size of an array
-
 
 A = np.array((23,45,36))
 print(A)
 
-
 print(Ar.ravel())                                 # reshape an array into 1D ARRAY
-
 
 rng = np.arange(22)                              # arange attribute 
 print(rng)
 
-
 B = np.linspace(9,10,5)                         # linespace attribute
 print(B)
 
-
 zeros = np.zeros((8,9))                          # create an array of zeros of given shape 
 print(zeros)
-
 
 print(zeros.shape)                               # shape of an array 
 
 print(zeros.size)                              # size of an array
 
-
 emp_arr = np.empty((9,7))                      # an array of random elements
 print(emp_arr) 
-
 
 ide_arr = np.identity(11)                             # identity matrix
 print(ide_arr)
